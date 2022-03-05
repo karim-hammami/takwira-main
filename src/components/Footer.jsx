@@ -9,7 +9,7 @@ const Footer = () => {
             <SocialIcon className='mr-2' url="https://www.instagram.com/_takwira_/?hl=fr" />
             <SocialIcon className='mr-2' url="https://www.tiktok.com/@_takwira_?lang=en" />
             <SocialIcon className='mr-2' url="https://www.facebook.com/Takwira-105377218313151" />
-            <SocialIcon url="contact@takwira.com.tn" />
+            <SocialIcon url="mailto:contact@takwira.com.tn" />
           </div>
       </div>
   </div>;
