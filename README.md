@@ -18,3 +18,7 @@ npm build
 - React
 - TailwindCSS
 - React Social Icons
+
+### Build output
+/
+--.Build
