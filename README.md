@@ -7,6 +7,12 @@ npm i
 npm start
 ```
 
+## Building
+
+```
+npm build
+```
+
 ### Dependecies
 
 - React
