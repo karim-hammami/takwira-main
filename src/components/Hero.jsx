@@ -5,7 +5,9 @@ import React from 'react';
 
 
 function handlered () {
-    window.location.href = "https://bit.ly/3ignYGK";
+    
+    window.location.replace("https://bit.ly/3ignYGK");
+    
   }
   
 
@@ -36,7 +38,7 @@ const Hero = () => {
     <p className='text-white font-light text-xl my-10 mx-auto max-w-xl	 mb-0 pb-0'>- Gens d'organiser ou de rejoindre des matchs/tournois publiques ou privés, de réserver des terrains, de trouver des classements, de rencontrer des amis et de s'inscrire aux académies de football.</p>
     <p className='text-white font-light text-xl my-10 mx-auto max-w-xl	 pb-0'>- Propriétaires de terrains de football de gérer leurs terrains (Réservations, Statistiques, Visibilité...)</p>
     <div className=' flex items-center justify-evenly pb-6  '> 
-                    <img className='text-white max-h-xs max-w-xs ' src="/assets/google.png" alt="play store" />
+                    <img onClick={handlered} className='text-white max-h-xs max-w-xs cursor-pointer ' src="/assets/google.png" alt="play store" />
                     <img className='max-h-xs max-w-xs' src="/assets/appgallery.svg" alt="app gallery" />
                         </div>
                         </div>
