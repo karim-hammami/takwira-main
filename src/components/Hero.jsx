@@ -5,11 +5,14 @@ import React from 'react';
 
 
 function handlered () {
-    
-    window.location.replace("https://bit.ly/3ignYGK");
-    
-  }
+    window.location.replace("https://bit.ly/3ignYGK");   
+}
   
+function handlegal () {
+  window.location.href = "https://appgallery.huawei.com/app/C104694375?sharePrepath=ag&locale=en_US&source=appshare&subsource=C104694375&shareTo=com.facebook.orca&shareFrom=appmarket&fbclid=IwAR1m2CPu1CCgFOX8nt6pLiQtc2j77S0_ReLG3x3dkG1xPi5nH6jYqn-uEow";
+}
+
+
 
 const Hero = () => {
   return <div id='home' className='scroll-smooth'>
@@ -20,7 +23,7 @@ const Hero = () => {
 <p className='text-white font-light text-sm md:text-4xl my-10 mx-auto max-w-xl	 pb-0'>- Propriétaires de terrains de football de gérer leurs terrains (Réservations, Statistiques, Visibilité...)</p>
 <div className='max-h-xs max-w-xs flex-col items-center justify-center pb-6 p-0 m-0'> 
                     <img onClick={handlered} className='cursor-pointer' src="/assets/google.png" alt="play store" />
-                    <img src="/assets/appgallery.svg" alt="app gallery" />
+                    <img onClick={handlegal} src="/assets/appgallery.svg" alt="app gallery" />
                     </div>
           <div className=''>
           {<img className='' src="../assets/mainres.png" alt=""/>}
@@ -39,7 +42,7 @@ const Hero = () => {
     <p className='text-white font-light text-xl my-10 mx-auto max-w-xl	 pb-0'>- Propriétaires de terrains de football de gérer leurs terrains (Réservations, Statistiques, Visibilité...)</p>
     <div className=' flex items-center justify-evenly pb-6  '> 
                     <img onClick={handlered} className='text-white max-h-xs max-w-xs cursor-pointer ' src="/assets/google.png" alt="play store" />
-                    <img className='max-h-xs max-w-xs' src="/assets/appgallery.svg" alt="app gallery" />
+                    <img onClick={handlegal} className='max-h-xs max-w-xs' src="/assets/appgallery.svg" alt="app gallery" />
                         </div>
                         </div>
           <div className='max-h-xs max-w-xs pt-20 pb-20'>

@@ -4,6 +4,9 @@ function handlered () {
 
   window.location.href = "https://bit.ly/3ignYGK";
 }
+function handlegal () {
+  window.location.href = "https://appgallery.huawei.com/app/C104694375?sharePrepath=ag&locale=en_US&source=appshare&subsource=C104694375&shareTo=com.facebook.orca&shareFrom=appmarket&fbclid=IwAR1m2CPu1CCgFOX8nt6pLiQtc2j77S0_ReLG3x3dkG1xPi5nH6jYqn-uEow";
+}
 
 const CTA = () => {
   return <div>
@@ -15,7 +18,7 @@ const CTA = () => {
           <div className='max-h-xs max-w-xs flex-col items-center justify-center pb-6 p-0 m-0'>
           <div className='md:flex items-center justify-center'>
             <img onClick={handlered} className='cursor-pointer' src="/assets/google.png" alt="play store" />
-            <img src="/assets/appgallery.svg" alt="app gallery" />
+            <img onClick={handlegal} src="/assets/appgallery.svg" alt="app gallery" />
           </div>
           </div>
       </div>
